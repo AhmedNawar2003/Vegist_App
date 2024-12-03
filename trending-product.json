@@ -1,0 +1,82 @@
+[
+  {
+    "id":1,
+    "quantity":1,
+    "img": "img/coconut.jpg",
+    "overlay_img": "img/reacher.jpg",
+    "name": "Organic coconet",
+    "is_sale": true,
+    "sale_percentage": 22,
+    "price": 35.0,
+    "old_price": 44.0
+  },
+  {
+    "id":2,
+    "quantity":2,
+    "img": "img/organic-juise.jpg",
+    "overlay_img": "img/organic-juise2.jpg",
+    "name": "Orange juice natural",
+    "is_sale": false,
+    "price": 66.0
+  },
+  {
+    "id":3,
+    "quantity":3,
+    "img": "img/papaya.jpg",
+    "overlay_img": "img/graps.jpg",
+    "name": "Healthy papaya 100% organic",
+    "is_sale": false,
+    "price": 20.0
+  },
+  {
+    "id":4,
+    "quantity":4,
+    "img": "img/orange.jpg",
+    "overlay_img": "img/banana.jpg",
+    "name": "Fruits banana 100% organic",
+    "is_sale": true,
+    "sale_percentage": 50,
+    "price": 22.0,
+    "old_price": 44.0
+  },
+  {
+    "id":5,
+    "quantity":5,
+    "img": "img/sea_oysters.jpg",
+    "overlay_img": "img/shrimp.jpg",
+    "name": "Fresh seafoods",
+    "is_sale": true,
+    "sale_percentage": 59,
+    "price": 18.0,
+    "old_price": 44.0
+  },
+  {
+    "id":6,
+    "quantity":6,
+    "img": "img/apricot.jpg",
+    "overlay_img": "img/reacher.jpg",
+    "name": "Fresh organic reachter",
+    "is_sale": true,
+    "sale_percentage":32,
+    "price": 44.0,
+    "old_price": 65.0
+  },
+  {
+    "id":7,
+    "quantity":7,
+    "img": "img/cantaloupe.jpg",
+    "overlay_img": "img/apple.jpg",
+    "name": "Fresh organic fruit(50gm)",
+    "is_sale": false,
+    "price": 33.0
+  },
+  {
+    "id":8,
+    "quantity":8,
+    "img": "img/tomato.jpg",
+    "overlay_img": "img/cabbage.jpg",
+    "name": "Vegetable tomato",
+    "is_sale": false,
+    "price": 55.0
+  }
+]

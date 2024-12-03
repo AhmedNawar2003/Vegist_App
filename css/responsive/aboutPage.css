@@ -1,0 +1,49 @@
+@media (max-width: 1100px) {
+  .whatWeDo h2 {
+    font-size: 25px !important;
+  }
+}
+/*************************************************/
+@media (max-width: 800px) {
+  .whatWeDo h2 {
+    font-size: 20px !important;
+  }
+  .header #cartSpan {
+    right: 547px !important;
+    top: 314px !important;
+  }
+  .header #wishlistSpan {
+    top: 310px !important;
+    right: 580px !important;
+  }
+  .homeAbout p,
+  .homeAbout p a {
+    font-size: 14px;
+  }
+}
+/*************************************************/
+@media (max-width: 600px) {
+  .whatWeDo h2 {
+    font-size: 16px !important;
+  }
+  .header #cartSpan {
+    right: 232px !important;
+    top: 295px !important;
+  }
+  .header #wishlistSpan {
+    top: 292px !important;
+    right: 258px !important;
+  }
+  .homeAbout p,
+  .homeAbout p a {
+    font-size: 12px;
+  }
+  .whatWeDo p {
+    font-size: 12px !important;
+  }
+  .whatWeDo .img {
+    img {
+      width: 130px !important;
+    }
+  }
+}

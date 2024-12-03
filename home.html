@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body id="body" class="dark-mode">
+    <!-- loading -->
+    <div class="loading">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    <!-- ///////////////////////// -->
+    <!-- start header -->
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">
+            <img src="img/logo-1.svg" alt="vegist(Website_logo)" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Blog</a>
+              </li>
+            </ul>
+            <div class="content-action d-flex">
+              <div class="account d-flex">
+                <p id="userName"></p>
+                <a href="login.html"><i class="fa-thin fa-user" id="user"></i></a>
+                <div class="text d-flex">
+                  <p class="text-acc">Account</p>
+                  <p>
+                    <a href="register.html">Register</a>&nbsp;|&nbsp;<a href="login.html">Login</a>
+                  </p>
+                </div>
+              </div>
+              <span id="wishlistSpan">0</span>
+              <span id="cartSpan">0</span>
+              <a href="wishlist.html" class="wishlistIcon"><i class="fa-thin fa-heart" id="heart"></i></a>
+              <a href="cart.html" class="cartIcon"><i class="fa-thin fa-bag-shopping" id="shop"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End header -->
+    <!-- ////////////////////// -->
+    <!-- start home -->
+    <section class="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="img">
+                    <img src="img/slider1.webp" alt="" />
+                  </div>
+                  <div class="body">
+                    <span>Summer vege sale</span>
+                    <h1>
+                      Fresh fruits <br />
+                      &AMP; vegetable
+                    </h1>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+                <div class="carousel-item second-item">
+                  <div class="img">
+                    <img src="img/slider2.webp" alt="" />
+                  </div>
+                  <div class="body">
+                    <span>Organic indian masala</span>
+                    <h1>
+                      Prod of indian <br />
+                      &AMP; 100% packaging
+                    </h1>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+                <div class="carousel-item third-item">
+                  <div class="img">
+                    <img src="img/slider3.webp" alt="" />
+                  </div>
+                  <div class="body">
+                    <span>Top selling!</span>
+                    <h1>Fresh for your heath</h1>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"
+                  ><i class="fa-regular fa-angles-left"></i
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"
+                  ><i class="fa-regular fa-angles-right"></i
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End home -->
+    <!-- /////////////////////// -->
+    <!-- start about -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="card">
+              <div class="img">
+                <img src="img/banner-1.jpg" alt="banner-1" />
+              </div>
+              <div class="body">
+                <h2>
+                  Fresh fruit,vegetable<br />
+                  on our product
+                </h2>
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="card">
+              <div class="img">
+                <img src="img/banner-3.jpg" alt="banner-3" />
+              </div>
+              <div class="body">
+                <h2>
+                  Vegetable eggplant<br />
+                  100% fresh food
+                </h2>
+                <a href="#">Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End about -->
+    <!-- ////////////////////// -->
+    <!-- start shop-category -->
+    <section class="shop-category">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card card-head">
+              <h2>Shop by Category</h2>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div
+                  id="carouselExampleControls3"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner" id="shopRow">
+                    <!-- Shop items -->
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls3"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"
+                      ><i class="fa-regular fa-angles-left"></i
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls3"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon" aria-hidden="true"
+                      ><i class="fa-regular fa-angles-right"></i
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End shop-category -->
+    <!-- ///////////////////// -->
+    <!-- start trending-product -->
+    <section class="trending-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card card-head">
+              <h2>Trending Products</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div
+                id="carouselExampleControls2"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner" id="carouselBody"></div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls2"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"
+                    ><i class="fa-regular fa-angles-left"></i
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls2"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"
+                    ><i class="fa-regular fa-angles-right"></i
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End trending-product -->
+    <!-- ///////////////////// -->
+    <!-- start dayDealing -->
+    <section class="dayDealing">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <p>We offer a hot deal offer every festival</p>
+              <h2>Deal of the day!</h2>
+              <ul class="d-flex p-0">
+                <li>
+                  <span class="time" id="day"></span
+                  ><span class="text">Day</span>
+                </li>
+                <li>
+                  <span class="time" id="hour"></span
+                  ><span class="text">HRS</span>
+                </li>
+                <li>
+                  <span class="time" id="minute"></span
+                  ><span class="text">MIN</span>
+                </li>
+                <li>
+                  <span class="time" id="second"></span
+                  ><span class="text">SEC</span>
+                </li>
+              </ul>
+              <a href="#">Shop collection</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End dayDealing-->
+    <!-- //////////////////// -->
+    <!-- start our-product -->
+    <section class="our-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card card-head align-items-center mb-3">
+              <h2>Our Products</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div
+              class="card card-link d-flex flex-row gap-5 justify-content-center"
+            >
+              <a href="#" id="specialProduct">Special Product</a>
+              <a href="#" id="newProduct">New Product</a>
+              <a href="#" id="bestsellerProduct">Bestseller Product</a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div
+                id="carouselExampleControls5"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner text-center" id="productBody"></div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls5"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"
+                    ><i class="fa-regular fa-angles-left"></i
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls5"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"
+                    ><i class="fa-regular fa-angles-right"></i
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End our-product -->
+    <!-- //////////////////// -->
+    <!-- start customerSaying -->
+    <section class="customerSaying">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card card-head">
+              <h2>Customer Saying</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div
+                id="carouselExampleControls4"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div
+                  class="carousel-inner text-center"
+                  id="customerSayingBody"
+                ></div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls4"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"
+                    ><i class="fa-regular fa-angles-left"></i
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls4"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"
+                    ><i class="fa-regular fa-angles-right"></i
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End customerSaying -->
+    <!-- /////////////////// -->
+    <!-- start recentNews -->
+    <section class="recentNews">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card card-head">
+              <h2>Recent News</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="img">
+                    <img src="img/blog2.jpg" alt="" />
+                    <span>1</span>
+                  </div>
+                  <div class="body">
+                    <div class="date">
+                      <span>
+                        <i class="fa-thin fa-calendar-days"></i> May 13, 2023
+                      </span>
+                      <span
+                        ><i class="fa-thin fa-message-lines"></i> 0
+                        Comment</span
+                      >
+                    </div>
+                    <h3>All time fresh every time healthy</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                      doli. Aenean commodo ligula eget dolor. ...
+                    </p>
+                    <a href="#"
+                      >Read more <i class="fa-thin fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="img">
+                    <img src="img/blog-3.webp" alt="" />
+                    <span>2</span>
+                  </div>
+                  <div class="body">
+                    <div class="date">
+                      <span>
+                        <i class="fa-thin fa-calendar-days"></i> May 13, 2023
+                      </span>
+                      <span
+                        ><i class="fa-thin fa-message-lines"></i> 1
+                        Comment</span
+                      >
+                    </div>
+                    <h3>Vegina special liquide fesh vagi</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                      doli. Aenean commodo ligula eget dolor. ...
+                    </p>
+                    <a href="#"
+                      >Read more <i class="fa-thin fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="img">
+                    <img src="img/blog-4.webp" alt="" />
+                    <span>3</span>
+                  </div>
+                  <div class="body">
+                    <div class="date">
+                      <span>
+                        <i class="fa-thin fa-calendar-days"></i> May 13, 2023
+                      </span>
+                      <span
+                        ><i class="fa-thin fa-message-lines"></i> 18
+                        Comment</span
+                      >
+                    </div>
+                    <h3>Green onion knife and salad placed</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                      doli. Aenean commodo ligula eget dolor. ...
+                    </p>
+                    <a href="#"
+                      >Read more <i class="fa-thin fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End recentNews -->
+    <!-- ////////////////// -->
+    <!-- start latestDeal -->
+    <section class="latestDeal">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <h2>Get the latest deals</h2>
+              <p>And receive 20% off coupon for first shopping</p>
+              <div class="input-group mb-3 w-50">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email address"
+                  aria-label="Enter your email address"
+                  aria-describedby="button-addon2"
+                />
+                <button class="btn" type="button" id="button-addon2">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End latestDeal -->
+    <!-- /////////////////// -->
+    <!-- start lastSec -->
+    <section class="lastSec">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-truck"></i></span
+                  ></a>
+                </li>
+                <li>Free Delivery</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-money-bill"></i></span
+                  ></a>
+                </li>
+                <li>Cash on delivery</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-refresh"></i></span
+                  ></a>
+                </li>
+                <li>30 days returns</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-headphones"></i></span
+                  ></a>
+                </li>
+                <li>Online support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End lastSec -->
+     <!-- ////////////////////////// -->
+    <!-- start footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="img">
+                <img src="img/logo-1.svg" alt="" />
+              </div>
+              <div class="body">
+                <p>
+                  Lorem ipsum iasds simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <h3>Address</h3>
+              <ul>
+                <li><i class="fa-thin fa-paper-plane"></i></li>
+                <li>
+                  <div>38 block street arean licard</div>
+                  <div>hamonia road sydney, australia</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <h3>Get in touch</h3>
+              <ul>
+                <li><i class="fa-thin fa-envelope"></i></li>
+                <li>
+                  <div>(+800) 1234 5678 90</div>
+                  <div>support@demo.com</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <!-- ////////////// -->
+    <div id="lightBoxContainer">
+        <div id="productContainer">
+          
+        </div>
+        <i id="closeLightBoxContainerBtn" class="fa-sharp fa-solid fa-circle-xmark"></i>
+      </div>
+    </div>
+    <!-- //////////////// -->
+    <h4 class="btn side-btn" id="upToHome">
+      <i class="fa-thin fa-arrow-up"></i>
+    </h4>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

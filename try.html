@@ -1,0 +1,132 @@
+document.addEventListener("DOMContentLoaded", async () => {
+  const productContainers = {
+      trending: document.getElementById("trendingProduct"),
+      special: document.getElementById("specialProduct"),
+      new: document.getElementById("newProduct"),
+      bestseller: document.getElementById("bestsellerProduct"),
+  };
+
+  const fetchProductData = async (url) => {
+      try {
+          const response = await fetch(url);
+          if (response.ok) {
+              return await response.json();
+          } else {
+              throw new Error("Network response was not ok");
+          }
+      } catch (error) {
+          console.error(`Error fetching data from ${url}:`, error);
+          return null;
+      }
+  };
+
+  try {
+      // Fetch trending products
+      const trendingProducts = await fetchProductData("trending-product.json");
+      renderProducts(trendingProducts, productContainers.trending);
+
+      // Fetch our products
+      const productData = await fetchProductData("our-product.json");
+      if (productData) {
+          const { specialProducts, newProducts, bestsellerProducts } = productData[0];
+
+          renderProducts(specialProducts, productContainers.special);
+          renderProducts(newProducts, productContainers.new);
+          renderProducts(bestsellerProducts, productContainers.bestseller);
+      }
+  } catch (error) {
+      console.error("Error loading products:", error);
+  }
+});
+
+// Function to render products
+const renderProducts = (products, container) => {
+  if (!Array.isArray(products) || products.length === 0) {
+      container.innerHTML = "<p>No products available.</p>";
+      return;
+  }
+
+  let cards = products.map(product => `
+      <div class="col-xl-3 col-lg-3 col-md-6 product-card" data-id="${product.id}">
+          <div class="card">
+              <div class="img">
+                  <img src="${product.img}" alt="" class="main-img" />
+                  <img src="${product.overlay_img}" alt="" class="overlay-img" />
+              </div>
+              <span class="is_sale ${product.is_sale ? "with_padding" : ""}">
+                  ${product.is_sale ? product.sale_percentage + "%" : ""}
+              </span>
+              <div class="body">
+                  <a href="#" class="name">${product.name}</a>
+                  <div class="price-section">
+                      <span class="price">€${product.price}</span>
+                      <span class="old-price">${product.old_price ? "€" + product.old_price : ""}</span>
+                  </div>
+              </div>
+              <div class="icons">
+                  <span class="wishlist" data-id="${product.id}"><i class="fa-light fa-heart"></i></span>
+                  <span class="cart" data-id="${product.id}"><i class="fa-light fa-bag-shopping"></i></span>
+                  <span class="showElement"><i class="fa-light fa-eye"></i></span>
+              </div>
+          </div>
+      </div>
+  `).join("");
+
+  container.innerHTML = `<div class="row">${cards}</div>`;
+};
+
+// Add event listeners for Add to Cart and Add to Wishlist buttons
+document.addEventListener("click", (event) => {
+  if (event.target.closest(".cart")) {
+      const productId = event.target.closest(".cart").getAttribute("data-id");
+      addToCart(productId);
+  }
+  if (event.target.closest(".wishlist")) {
+      const productId = event.target.closest(".wishlist").getAttribute("data-id");
+      addToWishlist(productId);
+  }
+});
+
+// Add to Cart functionality
+const addToCart = (productId) => {
+  const quantity = 1; // Default quantity
+  // Check if the cart already exists in localStorage
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  // Find if the product is already in the cart
+  const existingProduct = cart.find((item) => item.id === productId);
+  if (existingProduct) {
+      // If the product exists, update the quantity
+      existingProduct.quantity += quantity;
+  } else {
+      // If it's a new product, add it to the cart
+      cart.push({
+          id: productId,
+          quantity: quantity,
+      });
+  }
+  // Save the updated cart to localStorage
+  localStorage.setItem("cart", JSON.stringify(cart));
+  alert("Product added to cart!");
+  updateCartAndWishlistCount();
+};
+
+// Add to Wishlist functionality
+const addToWishlist = (productId) => {
+  // Check if the wishlist already exists in localStorage
+  let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+  // Find if the product is already in the wishlist
+  const existingProduct = wishlist.find((item) => item.id === productId);
+  if (!existingProduct) {
+      // If the product is not already in the wishlist, add it
+      wishlist.push({
+          id: productId,
+      });
+      // Save the updated wishlist to localStorage
+      localStorage.setItem("wishlist", JSON.stringify(wishlist));
+      alert("Product added to wishlist!");
+      updateCartAndWishlistCount();
+  } else {
+      alert("This product is already in your wishlist.");
+  }
+};
+

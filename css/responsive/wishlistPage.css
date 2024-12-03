@@ -1,0 +1,101 @@
+@media (max-width: 1100px) {
+  .Wishlist h5 {
+    font-size: 15px !important;
+  }
+}
+/***************************************/
+@media (max-width: 800px) {
+  .Wishlist .price,
+  .Wishlist .old-price {
+    font-size: 14px !important;
+  }
+  .Wishlist .item-total {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .Wishlist .remove-btn {
+    font-size: 12px !important;
+    padding: 8px !important;
+  }
+  .Wishlist p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .Wishlist input {
+    padding: 5px !important;
+    font-size: 12px;
+  }
+  .Wishlist #totalPrice {
+    font-size: 18px !important;
+  }
+}
+/***************************************/
+
+@media (max-width: 600px) {
+  .Wishlist .totalCard {
+    padding: 10px !important;
+  }
+  .Wishlist h5 {
+    font-size: 12px !important;
+  }
+  .Wishlist p {
+    font-size: 10px !important;
+  }
+  .Wishlist .price,
+  .Wishlist .old-price {
+    font-size: 10px !important;
+  }
+  .Wishlist .item-total {
+    font-size: 10px;
+  }
+  .Wishlist .remove-btn {
+    font-size: 10px !important;
+    padding: 5px !important;
+  }
+  .Wishlist p {
+    font-size: 10px;
+  }
+  .Wishlist input {
+    padding: 2px !important;
+    font-size: 10px;
+  }
+  .Wishlist #totalPrice {
+    font-size: 15px !important;
+  }
+  .Wishlist #removeAllWishlistBtn {
+    font-size: 10px !important;
+  }
+}
+/***************************************/
+@media (max-width: 400px) {
+  .Wishlist #removeAllWishlistBtn {
+    font-size: 8px !important;
+    padding: 5px !important;
+  }
+  .Wishlist #totalPrice {
+    font-size: 12px !important;
+  }
+}
+/***************************************/
+@media (max-width: 330px) {
+  .Wishlist h5 {
+    font-size: 8px !important;
+  }
+  .Wishlist p {
+    font-size: 8px !important;
+  }
+  .Wishlist .remove-btn {
+    font-size: 6px !important;
+    padding: 3px !important;
+    margin-top: -13px;
+  }
+  .Wishlist input {
+    padding: 2px !important;
+    font-size: 6px;
+  }
+  .Wishlist .price,
+  .Wishlist .old-price {
+    font-size: 8px !important;
+  }
+}
+/***************************************/

@@ -1,0 +1,609 @@
+[
+  {
+    "specialProducts": [
+      {
+        "id":9,
+        "quantity":9,
+        "img": "img/apple.jpg",
+        "overlay_img": "img/papaya.jpg",
+        "name": "Fresh apple (5kg)",
+        "is_sale": true,
+        "sale_percentage": 30,
+        "price": 14.0,
+        "old_price": 20.0
+      },
+      {
+        "id":10,
+        "quantity":10,
+        "img": "img/oyster1.jpg",
+        "overlay_img": "img/oyster2.jpg",
+        "name": "Fresh mussel (500g)",
+        "is_sale": true,
+        "sale_percentage": 40,
+        "price": 33.0,
+        "old_price": 55.0
+      },
+      {
+        "id":11,
+        "quantity":11,
+        "img": "img/red_Guava.jpg",
+        "overlay_img": "img/orange.jpg",
+        "name": "Sp. red fresh guava",
+        "is_sale": true,
+        "sale_percentage": 32,
+        "price": 30.0,
+        "old_price": 44.0
+      },
+      {
+        "id":12,
+        "quantity":12,
+        "img": "img/36_1.jpg",
+        "overlay_img": "img/shrimp.jpg",
+        "name": "Shrimp - jumbo (5 lb)",
+        "is_sale": false,
+        "price": 61.0
+      },
+      {
+        "id":13,
+        "quantity":13,
+        "img": "img/apricot.jpg",
+        "overlay_img": "img/reacher.jpg",
+        "name": "Fresh organic reachter",
+        "is_sale": true,
+        "sale_percentage": 32,
+        "price": 44.0,
+        "old_price": 65.0
+      },
+      {
+        "id":14,
+        "quantity":14,
+        "img": "img/grassben.jpg",
+        "overlay_img": "img/avocado.jpg",
+        "name": "Fresh grassben",
+        "is_sale": true,
+        "sale_percentage": 52,
+        "price": 15.0,
+        "old_price": 31.0
+      },
+      {
+        "id":15,
+        "quantity":15,
+        "img": "img/organic-juise.jpg",
+        "overlay_img": "img/organic-juise2.jpg",
+        "name": "Orange juice natural",
+        "is_sale": false,
+        "price": 66.0
+      },
+      {
+        "id":16,
+        "quantity":16,
+        "img": "img/papaya.jpg",
+        "overlay_img": "img/graps.jpg",
+        "name": "Healthy papaya 100% organic",
+        "is_sale": false,
+        "price": 20.0
+      },
+      {
+        "id":17,
+        "quantity":17,
+        "img": "img/cantaloupe.jpg",
+        "overlay_img": "img/apple.jpg",
+        "name": "Fresh organic fruit(50gm)",
+        "is_sale": false,
+        "price": 33.0
+      },
+      {
+        "id":18,
+        "quantity":18,
+        "img": "img/sea_oysters.jpg",
+        "overlay_img": "img/shrimp.jpg",
+        "name": "Fresh seafoods",
+        "is_sale": true,
+        "sale_percentage": 59,
+        "price": 18.0,
+        "old_price": 44.0
+      },
+      {
+        "id":19,
+        "quantity":19,
+        "img": "img/coconut.jpg",
+        "overlay_img": "img/reacher.jpg",
+        "name": "Organic coconet",
+        "is_sale": true,
+        "sale_percentage": 22,
+        "price": 35.0,
+        "old_price": 44.0
+      },
+      {
+        "id":20,
+        "quantity":20,
+        "img": "img/avocado.jpg",
+        "overlay_img": "img/30.jpg",
+        "name": "Fresh avocado",
+        "is_sale": true,
+        "sale_percentage": 25,
+        "price": 15.0,
+        "old_price": 20.0
+      },
+      {
+        "id":21,
+        "quantity":21,
+        "img": "img/1.jpg",
+        "overlay_img": "img/coconut.jpg",
+        "name": "Fresh blueberry",
+        "is_sale": true,
+        "sale_percentage": 31,
+        "price": 31.0,
+        "old_price": 51.0
+      },
+      {
+        "id":22,
+        "quantity":22,
+        "img": "img/orange.jpg",
+        "overlay_img": "img/32.jpg",
+        "name": "Fresh green orange",
+        "is_sale": true,
+        "sale_percentage": 47,
+        "price": 8.0,
+        "old_price": 15.0
+      },
+      {
+        "id":23,
+        "quantity":23,
+        "img": "img/coconut.jpg",
+        "overlay_img": "img/reacher.jpg",
+        "name": "Organic coconet",
+        "is_sale": true,
+        "sale_percentage": 22,
+        "price": 35.0,
+        "old_price": 44.0
+      },
+      {
+        "id":24,
+        "quantity":24,
+        "img": "img/avocado.jpg",
+        "overlay_img": "img/30.jpg",
+        "name": "Fresh avocado",
+        "is_sale": true,
+        "sale_percentage": 25,
+        "price": 15.0,
+        "old_price": 20.0
+      }
+    ]
+  },
+  {
+    "newProducts": [
+      {
+        "id":25,
+        "quantity":25,
+        "img": "img/apple.jpg",
+        "overlay_img": "img/papaya.jpg",
+        "name": "Fresh apple (5kg)",
+        "is_sale": true,
+        "sale_percentage": 30,
+        "price": 14.0,
+        "old_price": 20.0
+      },
+      {
+        "id":26,
+        "quantity":26,
+        "img": "img/red_Guava.jpg",
+        "overlay_img": "img/orange.jpg",
+        "name": "Sp. red fresh guava",
+        "is_sale": true,
+        "sale_percentage": 32,
+        "price": 30.0,
+        "old_price": 44.0
+      },
+      {
+        "id":27,
+        "quantity":27,
+        "img": "img/oyster1.jpg",
+        "overlay_img": "img/oyster2.jpg",
+        "name": "Fresh mussel (500g)",
+        "is_sale": true,
+        "sale_percentage": 40,
+        "price": 33.0,
+        "old_price": 55.0
+      },
+      {
+        "id":28,
+        "quantity":28,
+        "img": "img/40.jpg",
+        "overlay_img": "img/43.jpg",
+        "name": "Fresh dryed almod (50g)",
+        "is_sale": false,
+        "price": 31.0
+      },
+      {
+        "id":29,
+        "quantity":29,
+        "img": "img/grassben.jpg",
+        "overlay_img": "img/avocado.jpg",
+        "name": "Fresh grassben",
+        "is_sale": true,
+        "sale_percentage": 52,
+        "price": 15.0,
+        "old_price": 31.0
+      },
+      {
+        "id":30,
+        "quantity":30,
+        "img": "img/avocado.jpg",
+        "overlay_img": "img/30.jpg",
+        "name": "Fresh avocado",
+        "is_sale": true,
+        "sale_percentage": 25,
+        "price": 15.0,
+        "old_price": 20.0
+      },
+      {
+        "id":31,
+        "quantity":31,
+        "img": "img/papaya.jpg",
+        "overlay_img": "img/graps.jpg",
+        "name": "Healthy papaya 100% organic",
+        "is_sale": false,
+        "price": 20.0
+      },
+      {
+        "id":32,
+        "quantity":32,
+        "img": "img/tomato.jpg",
+        "overlay_img": "img/cabbage.jpg",
+        "name": "Vegetable tomato",
+        "is_sale": false,
+        "price": 55.0
+      },
+      {
+        "id":33,
+        "quantity":33,
+        "img": "img/red_Guava.jpg",
+        "overlay_img": "img/orange.jpg",
+        "name": "Sp. red fresh guava",
+        "is_sale": true,
+        "sale_percentage": 32,
+        "price": 30.0,
+        "old_price": 44.0
+      },
+      {
+        "id":34,
+        "quantity":34,
+        "img": "img/shrimp.jpg",
+        "overlay_img": "img/36_1.jpg",
+        "name": "Shrimp - jumbo (5 lb)",
+        "is_sale": false,
+        "price": 61.0
+      },
+      {
+        "id":35,
+        "quantity":35,
+        "img": "img/reacher.jpg",
+        "overlay_img": "img/1.jpg",
+        "name": "Fresh litchi 100% organic",
+        "is_sale": true,
+        "sale_percentage": 47,
+        "price": 8.0,
+        "old_price": 15.0
+      },
+      {
+        "id":36,
+        "quantity":36,
+        "img": "img/orange.jpg",
+        "overlay_img": "img/32.jpg",
+        "name": "Fresh green orange",
+        "is_sale": true,
+        "sale_percentage": 47,
+        "price": 8.0,
+        "old_price": 15.0
+      },
+      {
+        "id":37,
+        "quantity":37,
+        "img": "img/grassben.jpg",
+        "overlay_img": "img/avocado.jpg",
+        "name": "Fresh grassben",
+        "is_sale": true,
+        "sale_percentage": 52,
+        "price": 15.0,
+        "old_price": 31.0
+      },
+      {
+        "id":38,
+        "quantity":38,
+        "img": "img/apple.jpg",
+        "overlay_img": "img/papaya.jpg",
+        "name": "Fresh apple (5kg)",
+        "is_sale": true,
+        "sale_percentage": 30,
+        "price": 14.0,
+        "old_price": 20.0
+      },
+      {
+        "id":39,
+        "quantity":39,
+        "img": "img/oyster1.jpg",
+        "overlay_img": "img/oyster2.jpg",
+        "name": "Fresh mussel (500g)",
+        "is_sale": true,
+        "sale_percentage": 40,
+        "price": 33.0,
+        "old_price": 55.0
+      },
+      {
+        "id":40,
+        "quantity":40,
+        "img": "img/red_Guava.jpg",
+        "overlay_img": "img/orange.jpg",
+        "name": "Sp. red fresh guava",
+        "is_sale": true,
+        "sale_percentage": 32,
+        "price": 30.0,
+        "old_price": 44.0
+      }
+    ]
+  },
+  {
+    "bestsellerProducts": [
+      {
+        "id":41,
+        "quantity":41,
+        "img": "img/tomato.jpg",
+        "overlay_img": "img/cabbage.jpg",
+        "name": "Vegetable tomato",
+        "is_sale": false,
+        "price": 55.0
+      },
+      {
+        "id":42,
+        "quantity":42,
+        "img": "img/red_Guava.jpg",
+        "overlay_img": "img/orange.jpg",
+        "name": "Sp. red fresh guava",
+        "is_sale": true,
+        "sale_percentage": 32,
+        "price": 30.0,
+        "old_price": 44.0
+      },
+      {
+        "id":43,
+        "quantity":43,
+        "img": "img/shrimp.jpg",
+        "overlay_img": "img/36_1.jpg",
+        "name": "Shrimp - jumbo (5 lb)",
+        "is_sale": false,
+        "price": 61.0
+      },
+      {
+        "id":44,
+        "quantity":44,
+        "img": "img/reacher.jpg",
+        "overlay_img": "img/1.jpg",
+        "name": "Fresh litchi 100% organic",
+        "is_sale": true,
+        "sale_percentage": 47,
+        "price": 8.0,
+        "old_price": 15.0
+      },
+      {
+        "id":45,
+        "quantity":45,
+        "img": "img/orange.jpg",
+        "overlay_img": "img/32.jpg",
+        "name": "Fresh green orange",
+        "is_sale": true,
+        "sale_percentage": 47,
+        "price": 8.0,
+        "old_price": 15.0
+      },
+      {
+        "id":46,
+        "quantity":46,
+        "img": "img/grassben.jpg",
+        "overlay_img": "img/avocado.jpg",
+        "name": "Fresh grassben",
+        "is_sale": true,
+        "sale_percentage": 52,
+        "price": 15.0,
+        "old_price": 31.0
+      },
+      {
+        "id":47,
+        "quantity":47,
+        "img": "img/organic-juise.jpg",
+        "overlay_img": "img/organic-juise2.jpg",
+        "name": "Orange juice natural",
+        "is_sale": false,
+        "price": 66.0
+      },
+      {
+        "id":48,
+        "quantity":48,
+        "img": "img/papaya.jpg",
+        "overlay_img": "img/graps.jpg",
+        "name": "Healthy papaya 100% organic",
+        "is_sale": false,
+        "price": 20.0
+      },
+      {
+        "id":49,
+        "quantity":49,
+        "img": "img/cantaloupe.jpg",
+        "overlay_img": "img/apple.jpg",
+        "name": "Fresh organic fruit(50gm)",
+        "is_sale": false,
+        "price": 33.0
+      },
+      {
+        "id":50,
+        "quantity":50,
+        "img": "img/sea_oysters.jpg",
+        "overlay_img": "img/shrimp.jpg",
+        "name": "Fresh seafoods",
+        "is_sale": true,
+        "sale_percentage": 59,
+        "price": 18.0,
+        "old_price": 44.0
+      },
+      {
+        "id":51,
+        "quantity":51,
+        "img": "img/coconut.jpg",
+        "overlay_img": "img/reacher.jpg",
+        "name": "Organic coconet",
+        "is_sale": true,
+        "sale_percentage": 22,
+        "price": 35.0,
+        "old_price": 44.0
+      },
+      {
+        "id":52,
+        "quantity":52,
+        "img": "img/avocado.jpg",
+        "overlay_img": "img/30.jpg",
+        "name": "Fresh avocado",
+        "is_sale": true,
+        "sale_percentage": 25,
+        "price": 15.0,
+        "old_price": 20.0
+      },
+      {
+        "id":53,
+        "quantity":53,
+        "img": "img/1.jpg",
+        "overlay_img": "img/coconut.jpg",
+        "name": "Fresh blueberry",
+        "is_sale": true,
+        "sale_percentage": 31,
+        "price": 31.0,
+        "old_price": 51.0
+      },
+      {
+        "id":54,
+        "quantity":54,
+        "img": "img/orange.jpg",
+        "overlay_img": "img/32.jpg",
+        "name": "Fresh green orange",
+        "is_sale": true,
+        "sale_percentage": 47,
+        "price": 8.0,
+        "old_price": 15.0
+      },
+      {
+        "id":55,
+        "quantity":55,
+        "img": "img/coconut.jpg",
+        "overlay_img": "img/reacher.jpg",
+        "name": "Organic coconet",
+        "is_sale": true,
+        "sale_percentage": 22,
+        "price": 35.0,
+        "old_price": 44.0
+      },
+      {
+        "id":56,
+        "quantity":56,
+        "img": "img/avocado.jpg",
+        "overlay_img": "img/30.jpg",
+        "name": "Fresh avocado",
+        "is_sale": true,
+        "sale_percentage": 25,
+        "price": 15.0,
+        "old_price": 20.0
+      }
+    ]
+  },
+  {
+    "cats": [
+      {
+        "img": "img/fish.webp",
+        "aboveTitle": "fresh fruits",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat2.avif",
+        "aboveTitle": "Dairy and Cheese",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat3.avif",
+        "aboveTitle": "organic dryfruit",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat4.avif",
+        "aboveTitle": "Green seafood",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat5.avif",
+        "aboveTitle": "organic juice",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat6.avif",
+        "aboveTitle": "summer fruit",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat7.webp",
+        "aboveTitle": "fresh vegetable",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat8.avif",
+        "aboveTitle": "fresh meat",
+        "text": "22 item"
+      },
+      {
+        "img": "img/cat9.avif",
+        "aboveTitle": "sea & fish",
+        "text": "22 item"
+      }
+    ]
+  },
+  {
+    "customerSaying": [
+      {
+        "heading": "“ For Customer support”",
+        "paragraph": "I am pretty happy with the theme.I downloaded and saw documentation is a bit outdated, after spending a couple of days on self; I messaged the support. Boom, received a email reply within 30 days; having mentioned that issue will get resolved by tomorrow.",
+        "name": "By logicalguru1111"
+      },
+      {
+        "heading": "“ For Customer support”",
+        "paragraph": "The theme is very clean. I want to say that the support is extremely responsive and has been very patient with me. thank you so much for your help!",
+        "name": "By tokenfaith"
+      },
+      {
+        "heading": "“ For Customer support”",
+        "paragraph": "We needed a number of adjustments and changes before sending the site from draft/staging to a live site. support, was quick to make the necessary adjustments and changes.",
+        "name": "By refine_digital"
+      },
+      {
+        "heading": "“For other”",
+        "paragraph": "The developer is awesome at jumping on and fixing things or making changes for me.The design is great and can be adjusted easily. I will definitely stick to them when comes time for an upgrade.",
+        "name": "By stickersicko"
+      },
+      {
+        "heading": "“ For Customer support”",
+        "paragraph": "Excellent customer support! I highly recommend this. I have been having many troubles making the product page look exactly as I want. the customer support was very responsive and efficient in solving my problems. thank you very much!",
+        "name": "By clin1"
+      },
+      {
+        "heading": "“Flexibility”",
+        "paragraph": "I love this theme. higly customizable, easy to use and very flexible theme. great support ! excellent response times. very professional and helpful in all queries, absolutely awesome. highly recommended! the theme is really amazing. thank you spacingtech webify.",
+        "name": "By disa"
+      },
+      {
+        "heading": "“ For Customer support”",
+        "paragraph": "The design is really good and site is very responsive. however, what compelled me to write this review is the customer support that I have got. prompt support from the developer. would recommend it highly",
+        "name": "By cremica_foods"
+      },
+      {
+        "heading": "“ For Customer support”",
+        "paragraph": "This theme is really nice and responsive. I really like it. anybody can use it easily. customer support is AMAZING! they're replying in 5 minutes to our emails. so they help you every time. I recommend you all to buy this.",
+        "name": "By sametin8"
+      }
+    ]
+  }
+]

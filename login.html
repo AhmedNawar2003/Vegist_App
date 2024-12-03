@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body id="body" class="dark-mode">
+    <!-- start header -->
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">
+            <img src="img/logo-1.svg" alt="vegist(Website_logo)" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" id="navBarToggle"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <div class="content-action d-flex">
+              <div class="account d-flex">
+                <a href="login.html"><i class="fa-thin fa-user" id="user"></i></a>
+                <div class="text d-flex">
+                  <p class="text-acc">Account</p>
+                  <p>
+                    <a href="register.html">Register</a>&nbsp;|&nbsp;<a href="login.html">Login</a>
+                  </p>
+                </div>
+              </div>
+              <span id="wishlistSpan">0</span>
+              <span id="cartSpan">0</span>
+              <a href="wishlist.html" class="wishlistIcon"><i class="fa-thin fa-heart" id="heart"></i></a>
+              <a href="cart.html" class="cartIcon"><i class="fa-thin fa-bag-shopping" id="shop"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End header -->
+    <!-- ////////////////////// -->
+    <!-- start homeAbout -->
+    <section class="homeAbout">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card align-items-center">
+              <p><a href="home.html">Home</a> &nbsp; / &nbsp; Account</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End homeAbout -->
+    <!-- /////////////////////// -->
+    <!-- start login -->
+    <section class="login">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="card cardLogin">
+              <h2>Login</h2>
+              <p>Please login below account detail</p>
+              <div class="my-3">
+                <label for="email">UserName or email address</label>
+                <input
+                  type="text"
+                  email="email"
+                  id="log_email"
+                  placeholder="UserName or email address"
+                  required
+                />
+              </div>
+              <div class="my-3">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  password="password"
+                  id="log_password"
+                  placeholder="password"
+                />
+                <i class="fa-thin fa-eye" id="log_showPassword"></i>
+              </div>
+              <div class="my-3">
+                <a class="signIn" id="login">sign in</a>
+              </div>
+              <a href="resetPassword.html" class="forget">forget your password?</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="card">
+              <h6>Don't have an account?</h6>
+              <div class="my-3">
+                <a href="register.html" class="createAccount">create account</a>
+              </div>
+              <p>Terms & conditions.</p>
+              <p class="paragraph">
+                Your privacy and security are important to us. For more
+                information on how we use your data read our
+              </p>
+              <p>privacy policy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End login -->
+    <!-- /////////////////// -->
+    <!-- start lastSec -->
+    <section class="lastSec">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-truck"></i></span
+                  ></a>
+                </li>
+                <li>Free Delivery</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-money-bill"></i></span
+                  ></a>
+                </li>
+                <li>Cash on delivery</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-refresh"></i></span
+                  ></a>
+                </li>
+                <li>30 days returns</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-thin fa-headphones"></i></span
+                  ></a>
+                </li>
+                <li>Online support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End lastSec -->
+    <!-- ////////////////// -->
+    <!-- start footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="img">
+                <img src="img/logo-1.svg" alt="" />
+              </div>
+              <div class="body">
+                <p>
+                  Lorem ipsum iasds simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <h3>Address</h3>
+              <ul>
+                <li><i class="fa-thin fa-paper-plane"></i></li>
+                <li>
+                  <div>38 block street arean licard</div>
+                  <div>hamonia road sydney, australia</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <h3>Get in touch</h3>
+              <ul>
+                <li><i class="fa-thin fa-envelope"></i></li>
+                <li>
+                  <div>(+800) 1234 5678 90</div>
+                  <div>support@demo.com</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <!-- //////////////// -->
+    <h4 class="btn side-btn" id="upToHome">
+      <i class="fa-thin fa-arrow-up"></i>
+    </h4>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
